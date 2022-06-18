@@ -1,8 +1,8 @@
 package com.bridgelabz;
 
 public class Maximum {
-    public static Integer testCase(Integer a, Integer b, Integer c) {
-        Integer max = a;
+    public static Float testCase(Float a, Float b, Float c) {
+        Float max = a;
         if (b.compareTo(max) > 0) {
             max = b;
         }
@@ -13,7 +13,7 @@ public class Maximum {
     }
 
     public static void main(String[] args) {
-        System.out.println("Welcome Generics program to find maximum");
-        System.out.println("Maximum Of Three Integers is :" + testCase(2, 8, 9));
+        System.out.println("Welcome to Generics program to find maximum");
+        System.out.println("Maximum Of Three Floats is :" + testCase(2.4f, 8.5f, 5.9f));
     }
 }
